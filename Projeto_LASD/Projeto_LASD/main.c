@@ -4,7 +4,6 @@
  * Created: 19/11/2020 10:30:13
  * Autores: João Victor Rodrigues Ramalho
 	Matheus Cavalcante Rique 
-	Inserindo teste
  */ 
 
 #include <avr/io.h>
