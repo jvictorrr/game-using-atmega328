@@ -1,5 +1,4 @@
 #include "biblioteca.h"
-#define tam_vetor 2
 
 void int2string(unsigned int valor, unsigned char *disp)
 {
@@ -35,6 +34,7 @@ void game_running_display_init(){
  
 }
 void game_running_display_config(){
+	// Tela que configura o nivel de dificuldade do jogo
 	
 				nokia_lcd_clear(); //Limpa o LCD
 				nokia_lcd_set_cursor(0,0);
@@ -49,7 +49,8 @@ void game_running_display_config(){
 				
 }
 void game_running_display_countdwown(uint8_t contador){
-	unsigned char contador_string[tam_vetor];
+	// Tela que mostra a contagem regressiva durante o jogo
+	
 	
 	nokia_lcd_clear(); //Limpa o LCD
 	nokia_lcd_set_cursor(0, 0);
@@ -58,7 +59,49 @@ void game_running_display_countdwown(uint8_t contador){
 	nokia_lcd_set_cursor(0, 30);
 	nokia_lcd_write_string(contador_string,2); //Escreve a leitura no buffer do LCD
 	nokia_lcd_render(); //Atualiza a tela do display com o conteúdo do buffer
-	_delay_ms(500);
+	_delay_ms(100);
 	
 }
-
+uint8_t game_running_display_transit_start(){
+	
+					nokia_lcd_clear(); //Limpa o LCD
+					nokia_lcd_set_cursor(30,15);
+					nokia_lcd_write_string("3",4);
+					nokia_lcd_render();
+					_delay_ms(1000);
+					
+					
+					nokia_lcd_clear(); //Limpa o LCD
+					nokia_lcd_set_cursor(30,15);
+					nokia_lcd_write_string("2",4);
+					nokia_lcd_render();
+					_delay_ms(1000);
+					
+					nokia_lcd_clear(); //Limpa o LCD
+					nokia_lcd_set_cursor(30,15);
+					nokia_lcd_write_string("1",4);
+					nokia_lcd_render();
+					_delay_ms(1000);
+					
+					
+					nokia_lcd_clear(); //Limpa o LCD
+					nokia_lcd_set_cursor(15,15);
+					nokia_lcd_write_string("GO",4);
+					nokia_lcd_render();
+					_delay_ms(1000);					
+					
+					return 2;
+					
+}
+uint8_t game_running_display_game_over(){
+	// Tela que mostra o fim do jogo
+	
+			nokia_lcd_clear(); //Limpa o LCD
+			nokia_lcd_set_cursor(10,0);
+			nokia_lcd_write_string("GAME",2); //Escreve um texto do tamanho 2
+			nokia_lcd_set_cursor(10,25);
+			nokia_lcd_write_string("OVER",2); //Escreve um texto do tamanho 2
+			nokia_lcd_render();
+			_delay_ms(5000);
+			return 0;
+}
