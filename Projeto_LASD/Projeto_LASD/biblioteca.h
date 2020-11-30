@@ -16,4 +16,6 @@ unsigned char USART_Receive(void);
 
 
 void start_game_config(uint8_t num_dezena, uint8_t num_unidade);
-void game_running_display();
+void game_running_display_init();
+void game_running_display_config();
+void game_running_display_countdwown(uint8_t contador);
