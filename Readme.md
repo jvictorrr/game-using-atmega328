@@ -13,9 +13,10 @@ Assim, inicialmente as funções utilizadas no programa foram moduladas nos arqu
 “biblioteca.h” e “game_func.c” onde estão declarados as variáveis, os arquivos externos e as funções relacionadas ao jogo. 
 
 
-No atmel foram definidas as portas: 
-	- PB1 como o pino de saída responsável por emitir o sinal do sensor ultrassom
-	- PB0 como entrada, para receber o retorno do sinal ultrassônico
-	- PD2 e PD3 são entradas que habilitam as interrupções 
- 	- PD5 a saída
-	- Portas C são habilitadas como saída das portas 1 a 5 para o display e 6 para funcionar como o ativador da base do transistor
+	No atmel foram definidas as portas: 
+
+- PB1 como o pino de saída responsável por emitir o sinal do sensor ultrassom
+- PB0 como entrada, para receber o retorno do sinal ultrassônico
+- PD2 e PD3 são entradas que habilitam as interrupções 
+- PD5 a saída
+- Portas C são habilitadas como saída das portas 1 a 5 para o display e 6 para funcionar como o ativador da base do transistor
