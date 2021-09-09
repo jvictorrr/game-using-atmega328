@@ -20,3 +20,5 @@ No atmel foram definidas as portas:
 - PD2 e PD3 são entradas que habilitam as interrupções 
 - PD5 a saída
 - Portas C são habilitadas como saída das portas 1 a 5 para o display e 6 para funcionar como o ativador da base do transistor
+
+https://github.com/jvictorrr/Trabalho_LASD/issues/2#issue-991724846
