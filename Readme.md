@@ -21,4 +21,4 @@ No atmel foram definidas as portas:
 - PD5 a saída
 - Portas C são habilitadas como saída das portas 1 a 5 para o display e 6 para funcionar como o ativador da base do transistor
 
-https://github.com/jvictorrr/Trabalho_LASD/issues/2#issue-991724846
+![pinagem-ATMEGA328P](https://user-images.githubusercontent.com/39633395/132619261-4ccc4969-8c45-4449-8be0-87d770c9837f.jpg)
