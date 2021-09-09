@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src="![PITCH](https://user-images.githubusercontent.com/39633395/132619613-6ab89e82-a58b-442e-9b23-6352f9fd7ab8.png)" width="200"><br>
+"![PITCH](https://user-images.githubusercontent.com/39633395/132619613-6ab89e82-a58b-442e-9b23-6352f9fd7ab8.png" width="200"><br>
               <img alt="APM" src="https://img.shields.io/apm/l/vim-mode"><br>
     
  </h4>
