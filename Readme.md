@@ -3,6 +3,9 @@
 *Projeto de um jogo utilizando o microcontrolador atmel328 para o laboratório da disciplina de Arquitetura de Sistemas Digitais*
 
 
+![PITCH](https://user-images.githubusercontent.com/39633395/132619613-6ab89e82-a58b-442e-9b23-6352f9fd7ab8.png)
+
+
 
 ## 1. Código	
 
