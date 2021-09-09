@@ -7,10 +7,13 @@
 O código em questão deve ser implementado para o funcionamento de um jogo no qual 
 o objetivo é que o usuário consiga levar passar por um labirinto de uma ponta a outra
 do percurso antes que o tempo acabe, para aumentar a dificuldade, quando o jogador
-sofrer uma punição ao encostar na na barreira. essa punição pode ser de 5, 10 ou 15 segundo.
+sofrer uma punição ao encostar na na barreira. essa punição pode ser de 5, 10 ou 15 segundos.
 
-	Assim, inicialmente as funções utilizadas no programa foram moduladas nos arquivos “biblioteca.h” e “game_func.c” onde estão declarados as variáveis, os arquivos externos e as funções relacionadas ao jogo. 
-	No atmel foram definidas as portas: 
+Assim, inicialmente as funções utilizadas no programa foram moduladas nos arquivos
+“biblioteca.h” e “game_func.c” onde estão declarados as variáveis, os arquivos externos e as funções relacionadas ao jogo. 
+
+
+No atmel foram definidas as portas: 
 	- PB1 como o pino de saída responsável por emitir o sinal do sensor ultrassom
 	- PB0 como entrada, para receber o retorno do sinal ultrassônico
 	- PD2 e PD3 são entradas que habilitam as interrupções 
