@@ -4,7 +4,7 @@
     
  </h4>
 
-# BuzzWire Ultimate Countdwon 
+# BuzzWire Ultimate Countdown 
 
 *Design of a game using the atmel328 microcontroller for the laboratory of the Digital Systems Architecture*
 
